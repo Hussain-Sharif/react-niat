@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    jk {data.dishes.length}
+    {data.dishes.length}
     <Button>hi</Button>
     </>
   )
