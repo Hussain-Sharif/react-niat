@@ -1,602 +1,402 @@
-[
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
+{
+  "dishes": [
+    {
       "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+      "name": "Grilled Salmon",
+      "mealType": "MAIN COURSE",
+      "type": "NON-VEG",
+      "category": "Seafood",
+      "price": 24.00,
+      "calories": 320,
+      "image": "https://images.unsplash.com/photo-1485921325833-c519f76c4927?w=400",
+      "shortDescription": "Fresh Atlantic salmon fillet grilled to perfection.",
+      "fullDescription": "Fresh Atlantic salmon fillet grilled to perfection with a lemon herb butter sauce. Served with seasonal vegetables and a choice of rice or mashed potatoes. Rich in omega-3 fatty acids and protein, this dish is both healthy and delicious.",
+      "dietaryTags": ["GF", "K"],
+      "ingredients": [
+        { "name": "Salmon Fillet", "quantity": "200g" },
+        { "name": "Lemon", "quantity": "1" },
+        { "name": "Butter", "quantity": "2 tbsp" },
+        { "name": "Fresh Herbs", "quantity": "1 tbsp" },
+        { "name": "Olive Oil", "quantity": "1 tbsp" },
+        { "name": "Salt", "quantity": "1 tsp" },
+        { "name": "Black Pepper", "quantity": "1/2 tsp" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 1,
-    "name": "Kadhai Paneer 1"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 2,
+      "name": "Truffle Risotto",
+      "mealType": "MAIN COURSE",
+      "type": "VEG",
+      "category": "Italian",
+      "price": 18.50,
+      "calories": 450,
+      "image": "https://images.unsplash.com/photo-1476124369491-c0adbd0dc9c2?w=400",
+      "shortDescription": "A luxurious Italian classic featuring creamy Arborio rice.",
+      "fullDescription": "A luxurious Italian classic featuring creamy Arborio rice slow-cooked with white wine and finished with premium truffle oil and aged parmesan. Rich, earthy flavors perfect for sophisticated palates.",
+      "dietaryTags": ["V"],
+      "ingredients": [
+        { "name": "Arborio Rice", "quantity": "200g" },
+        { "name": "Truffle Oil", "quantity": "2 tbsp" },
+        { "name": "Parmesan", "quantity": "50g" },
+        { "name": "White Wine", "quantity": "100ml" },
+        { "name": "Mushrooms", "quantity": "100g" },
+        { "name": "Vegetable Stock", "quantity": "500ml" },
+        { "name": "Butter", "quantity": "30g" },
+        { "name": "Onion", "quantity": "1" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 2,
-    "name": "Kadhai Paneer 2"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 3,
+      "name": "Vegan Buddha Bowl",
+      "mealType": "MAIN COURSE",
+      "type": "VEG",
+      "category": "Healthy",
+      "price": 16.00,
+      "calories": 280,
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
+      "shortDescription": "Nutrient-packed bowl featuring avocado and quinoa.",
+      "fullDescription": "Nutrient-packed bowl featuring avocado, roasted chickpeas, quinoa, and kale. A colorful and wholesome meal loaded with vitamins, minerals, and plant-based protein.",
+      "dietaryTags": ["V", "GF"],
+      "ingredients": [
+        { "name": "Quinoa", "quantity": "100g" },
+        { "name": "Avocado", "quantity": "1" },
+        { "name": "Chickpeas", "quantity": "100g" },
+        { "name": "Kale", "quantity": "50g" },
+        { "name": "Cherry Tomatoes", "quantity": "50g" },
+        { "name": "Tahini", "quantity": "2 tbsp" },
+        { "name": "Lemon Juice", "quantity": "1 tbsp" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 3,
-    "name": "Kadhai Paneer 3"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 4,
+      "name": "Chicken Caesar",
+      "mealType": "STARTER",
+      "type": "NON-VEG",
+      "category": "Salads",
+      "price": 15.00,
+      "calories": 350,
+      "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400",
+      "shortDescription": "Classic Caesar salad with grilled chicken breast.",
+      "fullDescription": "Classic Caesar salad with grilled chicken breast, croutons, and parmesan shavings. Tossed in our house-made Caesar dressing with fresh romaine lettuce.",
+      "dietaryTags": ["GF"],
+      "ingredients": [
+        { "name": "Chicken Breast", "quantity": "150g" },
+        { "name": "Romaine Lettuce", "quantity": "100g" },
+        { "name": "Croutons", "quantity": "30g" },
+        { "name": "Parmesan", "quantity": "30g" },
+        { "name": "Caesar Dressing", "quantity": "50ml" },
+        { "name": "Anchovies", "quantity": "3" },
+        { "name": "Garlic", "quantity": "1 clove" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 4,
-    "name": "Kadhai Paneer 4"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 5,
+      "name": "Pasta Primavera",
+      "mealType": "MAIN COURSE",
+      "type": "VEG",
+      "category": "Italian",
+      "price": 17.00,
+      "calories": 400,
+      "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400",
+      "shortDescription": "Fresh pasta tossed with seasonal spring vegetables.",
+      "fullDescription": "Fresh pasta tossed with seasonal spring vegetables in a light garlic olive oil sauce. A colorful medley of zucchini, bell peppers, cherry tomatoes, and fresh basil.",
+      "dietaryTags": ["V"],
+      "ingredients": [
+        { "name": "Pasta", "quantity": "200g" },
+        { "name": "Zucchini", "quantity": "100g" },
+        { "name": "Bell Peppers", "quantity": "100g" },
+        { "name": "Cherry Tomatoes", "quantity": "100g" },
+        { "name": "Olive Oil", "quantity": "3 tbsp" },
+        { "name": "Garlic", "quantity": "3 cloves" },
+        { "name": "Fresh Basil", "quantity": "10g" },
+        { "name": "Parmesan", "quantity": "30g" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 5,
-    "name": "Kadhai Paneer 5"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 6,
+      "name": "Beef Stir Fry",
+      "mealType": "MAIN COURSE",
+      "type": "NON-VEG",
+      "category": "Asian",
+      "price": 21.00,
+      "calories": 480,
+      "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400",
+      "shortDescription": "Tender beef strips wok-fried with crisp vegetables.",
+      "fullDescription": "Tender beef strips wok-fried with crisp colorful vegetables in a savory ginger soy sauce. Served over steamed jasmine rice for a complete Asian-inspired meal.",
+      "dietaryTags": ["GF", "K"],
+      "ingredients": [
+        { "name": "Beef Sirloin", "quantity": "200g" },
+        { "name": "Broccoli", "quantity": "100g" },
+        { "name": "Carrots", "quantity": "80g" },
+        { "name": "Bell Peppers", "quantity": "80g" },
+        { "name": "Soy Sauce", "quantity": "3 tbsp" },
+        { "name": "Ginger", "quantity": "15g" },
+        { "name": "Garlic", "quantity": "3 cloves" },
+        { "name": "Sesame Oil", "quantity": "1 tbsp" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 6,
-    "name": "Kadhai Paneer 6"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 7,
+      "name": "Bruschetta",
+      "mealType": "STARTER",
+      "type": "VEG",
+      "category": "Italian",
+      "price": 12.00,
+      "calories": 180,
+      "image": "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?w=400",
+      "shortDescription": "Toasted bread topped with fresh tomatoes and basil.",
+      "fullDescription": "Toasted bread topped with fresh tomatoes, basil, garlic, and extra virgin olive oil. A classic Italian appetizer that's light, fresh, and bursting with flavor.",
+      "dietaryTags": ["V"],
+      "ingredients": [
+        { "name": "Bread Slices", "quantity": "4" },
+        { "name": "Tomatoes", "quantity": "200g" },
+        { "name": "Fresh Basil", "quantity": "10g" },
+        { "name": "Garlic", "quantity": "2 cloves" },
+        { "name": "Olive Oil", "quantity": "3 tbsp" },
+        { "name": "Balsamic Vinegar", "quantity": "1 tbsp" },
+        { "name": "Salt", "quantity": "1 tsp" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 7,
-    "name": "Kadhai Paneer 7"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 8,
+      "name": "Shrimp Cocktail",
+      "mealType": "STARTER",
+      "type": "NON-VEG",
+      "category": "Seafood",
+      "price": 18.00,
+      "calories": 120,
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=400",
+      "shortDescription": "Chilled jumbo shrimp served with tangy cocktail sauce.",
+      "fullDescription": "Chilled jumbo shrimp served with tangy cocktail sauce and lemon wedges. A classic starter that's elegant, refreshing, and perfect for any occasion.",
+      "dietaryTags": ["GF", "K"],
+      "ingredients": [
+        { "name": "Jumbo Shrimp", "quantity": "200g" },
+        { "name": "Cocktail Sauce", "quantity": "50ml" },
+        { "name": "Lemon", "quantity": "1" },
+        { "name": "Lettuce", "quantity": "30g" },
+        { "name": "Horseradish", "quantity": "1 tsp" },
+        { "name": "Ketchup", "quantity": "30ml" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 8,
-    "name": "Kadhai Paneer 8"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 9,
+      "name": "French Onion Soup",
+      "mealType": "STARTER",
+      "type": "VEG",
+      "category": "French",
+      "price": 14.00,
+      "calories": 280,
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400",
+      "shortDescription": "Rich caramelized onion soup with melted Gruyère.",
+      "fullDescription": "Rich caramelized onion soup with melted Gruyère cheese and toasted bread. A comforting French classic that's perfect for warming up on a cold day.",
+      "dietaryTags": ["V"],
+      "ingredients": [
+        { "name": "Onions", "quantity": "500g" },
+        { "name": "Beef Stock", "quantity": "500ml" },
+        { "name": "Gruyère Cheese", "quantity": "80g" },
+        { "name": "Bread", "quantity": "2 slices" },
+        { "name": "Butter", "quantity": "30g" },
+        { "name": "White Wine", "quantity": "100ml" },
+        { "name": "Thyme", "quantity": "2 sprigs" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 9,
-    "name": "Kadhai Paneer 9"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 10,
+      "name": "Chocolate Lava Cake",
+      "mealType": "DESSERT",
+      "type": "VEG",
+      "category": "French",
+      "price": 12.00,
+      "calories": 480,
+      "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=400",
+      "shortDescription": "Warm chocolate cake with molten chocolate center.",
+      "fullDescription": "Warm chocolate cake with molten chocolate center, served with vanilla ice cream and fresh berries. An indulgent dessert that's perfect for chocolate lovers.",
+      "dietaryTags": ["V"],
+      "ingredients": [
+        { "name": "Dark Chocolate", "quantity": "100g" },
+        { "name": "Butter", "quantity": "80g" },
+        { "name": "Eggs", "quantity": "2" },
+        { "name": "Sugar", "quantity": "60g" },
+        { "name": "Flour", "quantity": "40g" },
+        { "name": "Vanilla Ice Cream", "quantity": "1 scoop" },
+        { "name": "Fresh Berries", "quantity": "50g" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 10,
-    "name": "Kadhai Paneer 10"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 11,
+      "name": "Tiramisu",
+      "mealType": "DESSERT",
+      "type": "VEG",
+      "category": "Italian",
+      "price": 11.00,
+      "calories": 420,
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400",
+      "shortDescription": "Classic Italian dessert with coffee-soaked ladyfingers.",
+      "fullDescription": "Classic Italian dessert with coffee-soaked ladyfingers layered with mascarpone cream and dusted with cocoa powder. A sophisticated end to any meal.",
+      "dietaryTags": ["V"],
+      "ingredients": [
+        { "name": "Ladyfingers", "quantity": "200g" },
+        { "name": "Mascarpone", "quantity": "250g" },
+        { "name": "Eggs", "quantity": "3" },
+        { "name": "Sugar", "quantity": "80g" },
+        { "name": "Espresso", "quantity": "200ml" },
+        { "name": "Cocoa Powder", "quantity": "20g" },
+        { "name": "Marsala Wine", "quantity": "50ml" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 11,
-    "name": "Kadhai Paneer 11"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 12,
+      "name": "Crème Brûlée",
+      "mealType": "DESSERT",
+      "type": "VEG",
+      "category": "French",
+      "price": 13.00,
+      "calories": 350,
+      "image": "https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?w=400",
+      "shortDescription": "Silky vanilla custard with caramelized sugar topping.",
+      "fullDescription": "Silky vanilla custard with caramelized sugar topping. A French dessert classic featuring rich custard beneath a perfectly torched crispy sugar crust.",
+      "dietaryTags": ["V", "GF"],
+      "ingredients": [
+        { "name": "Heavy Cream", "quantity": "500ml" },
+        { "name": "Egg Yolks", "quantity": "6" },
+        { "name": "Sugar", "quantity": "100g" },
+        { "name": "Vanilla Bean", "quantity": "1" },
+        { "name": "Brown Sugar", "quantity": "40g" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 12,
-    "name": "Kadhai Paneer 12"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 13,
+      "name": "Cheesecake",
+      "mealType": "DESSERT",
+      "type": "VEG",
+      "category": "American",
+      "price": 10.00,
+      "calories": 520,
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=400",
+      "shortDescription": "Creamy New York-style cheesecake with graham crust.",
+      "fullDescription": "Creamy New York-style cheesecake with graham cracker crust, topped with fresh strawberry compote. Rich, smooth, and absolutely irresistible.",
+      "dietaryTags": ["V"],
+      "ingredients": [
+        { "name": "Cream Cheese", "quantity": "600g" },
+        { "name": "Sugar", "quantity": "150g" },
+        { "name": "Eggs", "quantity": "3" },
+        { "name": "Sour Cream", "quantity": "200g" },
+        { "name": "Graham Crackers", "quantity": "200g" },
+        { "name": "Butter", "quantity": "100g" },
+        { "name": "Vanilla Extract", "quantity": "1 tsp" },
+        { "name": "Strawberries", "quantity": "200g" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 13,
-    "name": "Kadhai Paneer 13"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 14,
+      "name": "Margherita Pizza",
+      "mealType": "CLASSIC",
+      "type": "VEG",
+      "category": "Italian",
+      "price": 19.00,
+      "calories": 650,
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400",
+      "shortDescription": "Traditional pizza with fresh mozzarella and basil.",
+      "fullDescription": "Traditional Neapolitan pizza with fresh mozzarella, tomato sauce, and basil leaves. Baked in a wood-fired oven for an authentic Italian experience.",
+      "dietaryTags": ["V"],
+      "ingredients": [
+        { "name": "Pizza Dough", "quantity": "300g" },
+        { "name": "Tomato Sauce", "quantity": "100ml" },
+        { "name": "Fresh Mozzarella", "quantity": "150g" },
+        { "name": "Fresh Basil", "quantity": "15g" },
+        { "name": "Olive Oil", "quantity": "2 tbsp" },
+        { "name": "Salt", "quantity": "1 tsp" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 14,
-    "name": "Kadhai Paneer 14"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 15,
+      "name": "Fish and Chips",
+      "mealType": "CLASSIC",
+      "type": "NON-VEG",
+      "category": "British",
+      "price": 20.00,
+      "calories": 720,
+      "image": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?w=400",
+      "shortDescription": "Beer-battered cod with crispy golden fries.",
+      "fullDescription": "Beer-battered cod with crispy golden fries and mushy peas. A British pub classic served with tartar sauce and malt vinegar.",
+      "dietaryTags": [],
+      "ingredients": [
+        { "name": "Cod Fillet", "quantity": "250g" },
+        { "name": "Potatoes", "quantity": "300g" },
+        { "name": "Flour", "quantity": "150g" },
+        { "name": "Beer", "quantity": "200ml" },
+        { "name": "Peas", "quantity": "100g" },
+        { "name": "Tartar Sauce", "quantity": "50ml" },
+        { "name": "Malt Vinegar", "quantity": "2 tbsp" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 15,
-    "name": "Kadhai Paneer 15"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 16,
+      "name": "Chicken Tikka Masala",
+      "mealType": "CLASSIC",
+      "type": "NON-VEG",
+      "category": "Indian",
+      "price": 18.00,
+      "calories": 580,
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400",
+      "shortDescription": "Tender chicken in creamy tomato curry sauce.",
+      "fullDescription": "Tender chicken in creamy tomato curry sauce with aromatic Indian spices. Served with basmati rice and warm naan bread.",
+      "dietaryTags": ["GF"],
+      "ingredients": [
+        { "name": "Chicken Breast", "quantity": "300g" },
+        { "name": "Tomato Puree", "quantity": "200ml" },
+        { "name": "Heavy Cream", "quantity": "100ml" },
+        { "name": "Yogurt", "quantity": "100g" },
+        { "name": "Garam Masala", "quantity": "2 tsp" },
+        { "name": "Ginger", "quantity": "20g" },
+        { "name": "Garlic", "quantity": "4 cloves" },
+        { "name": "Onion", "quantity": "1" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 16,
-    "name": "Kadhai Paneer 16"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
+    {
+      "id": 17,
+      "name": "Pad Thai",
+      "mealType": "CLASSIC",
+      "type": "NON-VEG",
+      "category": "Thai",
+      "price": 17.00,
+      "calories": 540,
+      "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=400",
+      "shortDescription": "Stir-fried rice noodles with shrimp and peanuts.",
+      "fullDescription": "Stir-fried rice noodles with shrimp, bean sprouts, crushed peanuts, and lime. A beloved Thai street food classic with perfect balance of sweet, sour, and savory flavors.",
+      "dietaryTags": ["GF"],
+      "ingredients": [
+        { "name": "Rice Noodles", "quantity": "200g" },
+        { "name": "Shrimp", "quantity": "150g" },
+        { "name": "Bean Sprouts", "quantity": "100g" },
+        { "name": "Peanuts", "quantity": "50g" },
+        { "name": "Eggs", "quantity": "2" },
+        { "name": "Tamarind Paste", "quantity": "2 tbsp" },
+        { "name": "Fish Sauce", "quantity": "2 tbsp" },
+        { "name": "Lime", "quantity": "1" }
+      ]
     },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 17,
-    "name": "Kadhai Paneer 17"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
-    },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 18,
-    "name": "Kadhai Paneer 18"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
-    },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 19,
-    "name": "Kadhai Paneer 19"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
-    },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 20,
-    "name": "Kadhai Paneer 20"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
-    },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 21,
-    "name": "Kadhai Paneer 21"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
-    },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 22,
-    "name": "Kadhai Paneer 22"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
-    },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 23,
-    "name": "Kadhai Paneer 23"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
-    },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 24,
-    "name": "Kadhai Paneer 24"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
-    },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 25,
-    "name": "Kadhai Paneer 25"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
-    },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 26,
-    "name": "Kadhai Paneer 26"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
-    },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 27,
-    "name": "Kadhai Paneer 27"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
-    },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 28,
-    "name": "Kadhai Paneer 28"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
-    },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 29,
-    "name": "Kadhai Paneer 29"
-  },
-  {
-    "categoryId": 1,
-    "mealType": "MAIN COURSE",
-    "type": "VEG",
-    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
-    "image": null,
-    "category": {
-      "id": 1,
-      "name": "North Indian",
-      "image": "https://storage.googleapis.com/chefkartimages/customer_app_assets/star_chef/north_indian.png",
-      "isRecommendedForMealSuggestion": true
-    },
-    "dishType": "CURRY",
-    "forChefit": true,
-    "forParty": true,
-    "nameHi": "",
-    "nameBn": "",
-    "id": 30,
-    "name": "Kadhai Paneer 30"
-  }
-]
+    {
+      "id": 18,
+      "name": "Spring Rolls",
+      "mealType": "STARTER",
+      "type": "VEG",
+      "category": "Asian",
+      "price": 11.00,
+      "calories": 220,
+      "image": "https://images.unsplash.com/photo-1563244036-fdd7e9d90ed6?w=400",
+      "shortDescription": "Crispy vegetable-filled spring rolls.",
+      "fullDescription": "Crispy vegetable-filled spring rolls served with sweet chili dipping sauce. Light and crunchy with a savory vegetable filling.",
+      "dietaryTags": ["V"],
+      "ingredients": [
+        { "name": "Spring Roll Wrappers", "quantity": "8" },
+        { "name": "Cabbage", "quantity": "100g" },
+        { "name": "Carrots", "quantity": "80g" },
+        { "name": "Bean Sprouts", "quantity": "50g" },
+        { "name": "Soy Sauce", "quantity": "2 tbsp" },
+        { "name": "Ginger", "quantity": "10g" },
+        { "name": "Sweet Chili Sauce", "quantity": "50ml" }
+      ]
+    }
+  ]
+}
