@@ -1,16 +1,13 @@
-
-import { ArrowBigDown } from 'lucide-react'
-import './App.css'
-import { Button } from './components/ui/button'
-import data from './utils/data.json'
+import { Routes, Route } from 'react-router-dom'
+import MenuPage from './pages/MenuPage.jsx'
 
 function App() {
-
   return (
-    <>
-    {data.dishes.length}
-    <Button>hi</Button>
-    </>
+    <div className="min-h-screen bg-background">
+      <Routes>
+        <Route path="/" element={<MenuPage />} />
+      </Routes>
+    </div>
   )
 }
 
